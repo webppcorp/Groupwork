@@ -1,1 +1,48 @@
+/* Use this section of css only for tag selectors */
 
+  /* Setting universal margin and padding to zero for more precision in designing html elements.
+     border-box property allows for padding and border size to be included in width and height of
+     an element for more accurate sizing. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: 'Merriweather' , serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Use this section of css for others selector in a descending html order */
+
+.container {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #394867
+}
+
+.container a {
+  display: inline-block;
+  float: left;
+  width: 20%;
+  color: #f1f6f9;
+  font-weight: 700;
+}
+
+.container a:hover {
+  background-color: #14274e;
+  transition: 1s;
+}
+
+.main-content {
+  height: 100vh;
+  width: 100%;
+  background-color: gray;
+}
