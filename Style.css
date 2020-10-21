@@ -9,21 +9,62 @@
 }
 
 body {
-  text-align: center;
   font-family: 'Merriweather', serif;
-  font-weight: 400;
-}
-
-a {
-  text-decoration: none;
 }
 
 i {
   display: block;
 }
-
+img {
+	float:left;
+}
+header {
+	background-color:#2a52a2;
+	padding:30px;
+	text-align: center;
+	font-size:20px;
+	color:white;
+}
+nav {
+	float:left;
+	width:30%;
+	background:#7194da;
+	padding:20px;
+	height:350px;
+}
+nav ul {
+	list-style-type:none;
+	padding:0;
+}
+article {
+	float:left;
+	padding:10px;
+	width:70%;
+	background-color:#eaeffa;
+	max-height: 350px;
+	overflow: auto;
+}
+section:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+footer {
+	background-color: #274fa5;
+	padding:10px;
+	text-align: center;
+	color:white;
+}
+/*This is for make responsive element (nav & article) , change the size of windows and test it !!*/
+@media (max-width:800px) {
+	nav , article {
+		width:100%;
+		height:auto;
+	}
+}
 /* Use this section of css for others selector in a descending html order */
-.container {
+.container {	 
+  text-align: center;	
   width: 100%;
   height: 50px;
   line-height: 50px;
@@ -31,6 +72,7 @@ i {
 }
 
 .container a {
+  text-decoration: none;
   display: inline-block;
   float: left;
   width: 20%;
@@ -44,7 +86,7 @@ i {
 }
 
 .main-content {
-  height: 100vh;
+  height: auto;
   width: 100%;
   background-color: gray;
 }
@@ -105,4 +147,15 @@ border-radius: 20px;
 input[type="submit"]:hover {
   background-color: #9ba4b4;
   color: #14274e;
+}
+/*Use this section to put your created ID's*/
+#library {
+   background-image: url('https://cdn1.bbcode0.com/uploads/2020/10/22/9f72c9d8523dda0160f91a3cfbda50dd-full.png');
+   height: 70px;
+   width: 120px;
+}
+#library:hover {
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS3sBJy6K2lwQRiN1h7fvowfebsms9RERqNjw&usqp=CAU');
+   height: 70px;
+   width: 120px;
 }
