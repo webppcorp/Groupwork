@@ -22,4 +22,5 @@
 ## Last Word
     I intended for this guide to be a place we comment on each others programming habits. As you work on this, write your own opinion
     so we better understand each other mindsets. Don't Delete any of the notes i wrote, only add to them with the same format.
-    Thank You !!!
+    Thank You !!! 
+    ( Beband dahanetreeee )  :)) aha sorry in format ----> Close your mountreeeeeeee :D 
