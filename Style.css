@@ -12,9 +12,6 @@ body {
   font-family: 'Merriweather', serif;
 }
 
-i {
-  display: block;
-}
 img {
 	float:left;
 }
@@ -63,8 +60,8 @@ footer {
 	}
 }
 /* Use this section of css for others selector in a descending html order */
-.container {	 
-  text-align: center;	
+.container {
+  text-align: center;
   width: 100%;
   height: 50px;
   line-height: 50px;
